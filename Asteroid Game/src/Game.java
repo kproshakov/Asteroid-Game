@@ -208,7 +208,7 @@ public class Game extends JPanel
 			{
 
 				life--;
-				JOptionPane.showMessageDialog(null, "You got killed!\nYou have " + life + " lifes left!");
+				JOptionPane.showMessageDialog(null, "You are dead!\nYou have " + life + " lifes left!");
 
 				clearField(g2);
 				
